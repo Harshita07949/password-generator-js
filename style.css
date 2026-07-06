@@ -99,5 +99,20 @@ body{
 .len:hover{
     border:2px solid white;
 }
+#c1:hover{
+   cursor: pointer;
+}
+#c2:hover{
+   cursor: pointer;
+}
+#c3:hover{
+   cursor: pointer;
+}
+#c4:hover{
+   cursor: pointer;
+}
+.num:hover{
+    cursor:pointer;
+}
 
     
