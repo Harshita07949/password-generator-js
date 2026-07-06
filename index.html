@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <div class="passgen">🔐 Password Generator </div>
+    <div class="pass"> <pre>  Password:</pre></div>
+    <div class="stygen">
+    <div class="gen">Generate Password !</div>
+    <div class="cpy">Copy</div>
+    </div>
+    <div class="len">
+        <div id="passlen" > Set the Password Length</div>
+        <select class="num">
+             <option value="8" class="num">8</option>
+             <option value="9" class="num">9</option>
+             <option value="10" class="num" >10</option>
+             <option value="11" class="num">11</option>
+             <option value="12" class="num" >12</option>
+             <option value="13" class="num">13</option>
+             <option value="14" class="num" >14</option>
+             <option value="15" class="num">16</option>
+             <option value="17" class="num" >17</option>
+             <option value="18"  class="num">18</option>
+        </select>
+        
+    </div>
+    <p id="p1" style="font-size: larger;" style="font-weight: bolder;">Password should contain:</p>
+    <div class="checkbox">
+    <label for="c1">
+     <input type="checkbox"   value= "uppercase" id="c1"  class="type">uppercase(A-Z)</label>
+    <label for="c2">
+     <input type="checkbox"  value= "lowercase" id="c2" class="type">lowercase(a-z)</label>
+    <label for="c3">
+     <input type="checkbox"  value= "numbers" id="c3" class="type">numbers(0-9)</label>
+    <label for="c4">
+     <input type="checkbox"  value= "symbols" id="c4" class="type">symbols(!@#$%)</label>
+    </div>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>

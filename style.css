@@ -1,0 +1,103 @@
+body{
+    background-color: #5c677d;
+    margin:0px;
+    padding:0px;
+}
+
+.passgen{
+    background-color: #001233;
+    color: #fff;
+    height:70px;
+    text-align: center;
+    line-height: 5rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+.stygen{
+    margin:20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:70px;
+
+}
+.gen{
+    background-color: whitesmoke;
+    color:black;
+    height:70px;
+    width:500px;
+    text-align: center;
+    line-height:4rem;
+}
+.cpy{
+    background-color:grey;
+    color: black;
+    height:70px;
+    width:60px;
+    text-align: center;
+     line-height:4rem;
+}
+.gen:hover{
+    border:2px solid black;
+}
+.cpy:hover{
+    border:2px solid black;
+}
+.pass{
+    background-color: #023e7d;
+    margin:20px;
+    height:70px;
+    width:600px;
+    display: inline-block;
+    color:#fff;
+    line-height: 4rem;
+    font-size: larger;
+    font-weight: bolder;
+    align-items: center;
+    line-height: 2rem;
+    margin-left: 50px;
+   
+}
+#p1{
+    margin-left: 50px;
+    width:1000px;
+}
+.pass:hover{
+    border:2px solid #7d8597;
+}
+.len{
+    display:flex;
+    height:50px;
+    width:300px;
+    gap:2rem;
+    background-color: #001845;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    margin:50px;
+  
+}
+.checkbox{
+   
+    display: flex;
+   flex-direction: column;
+   gap:10px;
+   color:#001233;
+   font-size: larger;
+   font-weight: bolder;
+   margin-left:50px;
+   
+}
+#passlen{
+    width:200px;
+    height:50px;
+    align-items: center;
+    line-height: 3rem;
+    
+   
+}
+.len:hover{
+    border:2px solid white;
+}
+
+    
